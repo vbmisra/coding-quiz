@@ -9,22 +9,23 @@
 </head>
 <body>
     <header>
-        <button class="highscore-button">View Highscores</button>
-        <h2 class="timer-text">Time: <span class="timer-count">30</span> seconds</h2>
+        <h3><a class="highscore-link" href="#highscores">View Highscores</a></h3>
+        <h2 class="timer-text">Time: <span id="timer-count">30</span> seconds</h2>
     </header>
 
     <main>
-        <div>
+        <div class="intro">
             <h2>Tennis Quiz Challenge</h2>
             <p>Try to answer as many questions corrrectly as possible in 30 seconds!</p>
             <p>At the end, you will have the option to log your initials and score.</p>
             <p>Beware, wrong answers subtract 3 seconds from the clock.</p>
             <button class="start-button">Let's Play!</button>
         </div>
-        <div class="card question">
+        <div class="question">
         </div>
 
-        <div class="card highscore-list">
+        <div class="highscore-list" id="highscores">
+            Highscores!
         </div>
     </main>
 

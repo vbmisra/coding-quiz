@@ -3,3 +3,57 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;   
+}
+
+header {
+    padding: 20px;
+    text-align: right;
+    color: maroon;
+    border-bottom: 30px;
+}
+
+header a {
+    color: maroon;
+}
+
+header h3 {
+    float: left;
+    font-size: 22px;
+}
+
+header h2 {
+    float: right;
+}
+
+main {
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+main h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+button {
+    background: radial-gradient(circle, whitesmoke 50%, darkgreen 150%);
+    color: darkgreen;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: .25px;
+    line-height: 15px;
+    max-width: 250px;
+    padding: 15px 35px;
+    text-align: center;
+    white-space: nowrap;
+}
