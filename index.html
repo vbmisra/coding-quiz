@@ -21,10 +21,18 @@
             <p>Beware, wrong answers subtract 3 seconds from the clock.</p>
             <button class="start-button">Let's Play!</button>
         </div>
-        <div class="question">
+
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="choices">
+                <button class="choice" id="A"></button>
+                <button class="choice" id="B"></button>
+                <button class="choice" id="C"></button>
+            </div>
+            <div id="progress"></div>
         </div>
 
-        <div class="highscore-list" id="highscores">
+        <div id="highscores">
             Highscores!
         </div>
     </main>

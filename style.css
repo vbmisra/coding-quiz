@@ -44,7 +44,7 @@ main h2 {
     margin: 0;
 }
 
-button {
+.start-button {
     background: radial-gradient(circle, whitesmoke 50%, darkgreen 150%);
     color: darkgreen;
     border-radius: 8px;
@@ -57,3 +57,4 @@ button {
     text-align: center;
     white-space: nowrap;
 }
+
