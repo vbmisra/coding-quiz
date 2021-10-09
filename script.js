@@ -54,9 +54,9 @@ function displayQuestion() {
     choiceA.textContent = quest.choiceA;
     choiceB.textContent = quest.choiceB;
     choiceC.textContent = quest.choiceC;
-    choiceA.addEventListener('click', checkAnswer);
-    choiceB.addEventListener('click', checkAnswer);
-    choiceC.addEventListener('click', checkAnswer);
+    //choiceA.addEventListener('click', checkAnswer());
+    //choiceB.addEventListener('click', checkAnswer());
+    //choiceC.addEventListener('click', checkAnswer());
 }
 
 function showProgress() {
@@ -76,8 +76,9 @@ function startQuiz() {
     startTimer();
     showProgress();
 }
-
+//need to fix the answer input.. maybe textContent?
 function checkAnswer(answer) {
+    console.log(answer);
     if (answer == questions[currentQuestion].correct) {
         scoreEl++;
         answerIsCorrect();
@@ -85,7 +86,7 @@ function checkAnswer(answer) {
         answerIsWrong();
     }
     count = 0;
-    if(currentQuestion < lastQuestion) {
+    if(currentQuestion <= lastQuestion) {
         currentQuestion++;
         displayQuestion();
     } else {
