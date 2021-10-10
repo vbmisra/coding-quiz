@@ -111,8 +111,14 @@ function displayHighscores() {
     scoreEl.style.display = 'block';
     quizEl.style.display = 'none';
     roundEl.style.display = 'none';
-    //need back button
     //need to display a list element
+}
+
+backBtn.addEventListener('click', goBack);
+
+function goBack() {
+    introEl.style.display = 'block';
+    scoreEl.style.display = 'none';
 }
 
 //displays player score at the end of the quiz round

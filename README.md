@@ -1,12 +1,16 @@
 # coding-quiz
+* As a developer, I created a tennis-themed quiz game. Given a 30 second timer, the user will answer a series of questions. Each correct question adds one point to the user's score. At the end of the game, the user's final score and initials will be recorded in the "high scores" section.
 
-1. Click Start button, a timer starts and question appears
-2. Answer is clicked, then another question appears
-3. Wrong answer choice means subtracted time
-4. Game over when timer reaches 0 or all questions are answered
-5. Game over: save initials and score (local storage & "view highscores" pulls from local storage and shows them)
-6. indicator that shows whether choice is correct or not
+## About the Project
+This project utilizes Javascript functionality to make the web application interactive.
 
-Highscores:
-1. "go back" option
-2. "clear high scores" option
+## Screenshot
+Here is a sample image of how the coding quiz appears in your browser:
+
+![image info](./tennis-quiz-screenshot.png)
+
+## Getting Started
+
+Enter the following link to access the quiz:
+
+Enter the following link to access the repository:
