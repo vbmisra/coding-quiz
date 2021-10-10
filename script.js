@@ -79,6 +79,7 @@ function startQuiz() {
     introEl.style.display = 'none';
     scoreEl.style.display = 'none';
     quizEl.style.display = 'block';
+    backBtn.style.display = 'none';
     displayQuestion();
     startTimer();
 }
@@ -111,7 +112,11 @@ function displayHighscores() {
     scoreEl.style.display = 'block';
     quizEl.style.display = 'none';
     roundEl.style.display = 'none';
-    //need to display a list element
+    backBtn.style.display = 'block';
+    for(i=0; i < scores.length; i++) {
+        console.log(scores[i]);
+        scoreEl.innerHTML = '<p>' + highscores[i] + ' scored ' + scores[i] + '</p>';
+    }
 }
 
 backBtn.addEventListener('click', goBack);
