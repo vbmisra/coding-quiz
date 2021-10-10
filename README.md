@@ -13,4 +13,8 @@ Here is a sample image of how the coding quiz appears in your browser:
 
 Enter the following link to access the quiz:
 
+https://vbmisra.github.io/tennis-quiz/
+
 Enter the following link to access the repository:
+
+https://github.com/vbmisra/tennis-quiz/settings/pages
